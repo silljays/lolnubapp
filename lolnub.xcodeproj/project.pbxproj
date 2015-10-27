@@ -1,0 +1,796 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0265998D1A127A7500245496 /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0265998C1A127A7500245496 /* libz.1.dylib */; };
+		02F6058E1A0C8B1A009335F3 /* NubBrandButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F6058D1A0C8B1A009335F3 /* NubBrandButton.m */; };
+		B71BE99C196748300007E036 /* template.nub in Resources */ = {isa = PBXBuildFile; fileRef = B71BE99B196748300007E036 /* template.nub */; };
+		B71CC25F192120DC00ABFAA1 /* NubFolderBucket.m in Sources */ = {isa = PBXBuildFile; fileRef = B71CC25E192120DC00ABFAA1 /* NubFolderBucket.m */; };
+		B721252C1B8AEAFE004D7A32 /* patches-logo_512px.png in Resources */ = {isa = PBXBuildFile; fileRef = B721252B1B8AEAFE004D7A32 /* patches-logo_512px.png */; };
+		B7279B731B8BCE5900A49DE6 /* patches-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B7279B721B8BCE5900A49DE6 /* patches-logo.png */; };
+		B74D6AC21B8ADC4A0066E5EF /* lolnub-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B74D6AC11B8ADC4A0066E5EF /* lolnub-Info.plist */; };
+		B75364671B686C7D00D2C286 /* castle-logo_512px.png in Resources */ = {isa = PBXBuildFile; fileRef = B75364651B686C7D00D2C286 /* castle-logo_512px.png */; };
+		B75364681B686C7D00D2C286 /* nubcake-logo_512px.png in Resources */ = {isa = PBXBuildFile; fileRef = B75364661B686C7D00D2C286 /* nubcake-logo_512px.png */; };
+		B766717C18F9E3AB007CDAB1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B766717B18F9E3AB007CDAB1 /* Cocoa.framework */; };
+		B766718818F9E3AB007CDAB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B766718718F9E3AB007CDAB1 /* main.m */; };
+		B79E35171B5CA24200DA10F2 /* BotMode.m in Sources */ = {isa = PBXBuildFile; fileRef = B79E35161B5CA24200DA10F2 /* BotMode.m */; };
+		B7A173231B18F480001DBDC0 /* BotMode.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7A173201B18F480001DBDC0 /* BotMode.xib */; };
+		B7AB0ACD19E5C21C00283B5B /* Bot.m in Sources */ = {isa = PBXBuildFile; fileRef = B7AB0A6219E5C21C00283B5B /* Bot.m */; };
+		B7AB0ACE19E5C21C00283B5B /* BotController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7AB0A6419E5C21C00283B5B /* BotController.m */; };
+		B7AB0ACF19E5C21C00283B5B /* BotModal.m in Sources */ = {isa = PBXBuildFile; fileRef = B7AB0A6619E5C21C00283B5B /* BotModal.m */; };
+		B7AB0AD019E5C21C00283B5B /* BotModalController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7AB0A6819E5C21C00283B5B /* BotModalController.m */; };
+		B7BDBAF91A6DBFE9003B9C1E /* WebMode.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7BDBAF61A6DBFE9003B9C1E /* WebMode.xib */; };
+		B7BDBAFA1A6DBFE9003B9C1E /* WebMode.m in Sources */ = {isa = PBXBuildFile; fileRef = B7BDBAF81A6DBFE9003B9C1E /* WebMode.m */; };
+		B7C873EE18FDA946009AB2E7 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7C873ED18FDA946009AB2E7 /* QuickLook.framework */; };
+		B7C8740718FDA9AD009AB2E7 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B76671B218F9E3ED007CDAB1 /* LICENSE */; };
+		B7C8740A18FDA9AD009AB2E7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B76671B418F9E3ED007CDAB1 /* README.md */; };
+		B7C8741318FDAA54009AB2E7 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7C8741218FDAA54009AB2E7 /* WebKit.framework */; };
+		B7C8741518FDAA60009AB2E7 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7C8741418FDAA60009AB2E7 /* QTKit.framework */; };
+		B7C8741818FDAA6B009AB2E7 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7C8741618FDAA6B009AB2E7 /* Quartz.framework */; };
+		B7C8741918FDAA6B009AB2E7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7C8741718FDAA6B009AB2E7 /* QuartzCore.framework */; };
+		B7C8748A18FDAAFF009AB2E7 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C8741C18FDAAFF009AB2E7 /* AppController.m */; };
+		B7C8748D18FDAAFF009AB2E7 /* Nub.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C8742118FDAAFF009AB2E7 /* Nub.m */; };
+		B7C8748E18FDAAFF009AB2E7 /* NubWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C8742318FDAAFF009AB2E7 /* NubWindowController.m */; };
+		B7C8748F18FDAAFF009AB2E7 /* button-window-close.png in Resources */ = {isa = PBXBuildFile; fileRef = B7C8742418FDAAFF009AB2E7 /* button-window-close.png */; };
+		B7C8749018FDAAFF009AB2E7 /* button-window-close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7C8742518FDAAFF009AB2E7 /* button-window-close@2x.png */; };
+		B7C8749118FDAAFF009AB2E7 /* button-window-minimize.png in Resources */ = {isa = PBXBuildFile; fileRef = B7C8742618FDAAFF009AB2E7 /* button-window-minimize.png */; };
+		B7C8749218FDAAFF009AB2E7 /* button-window-minimize@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7C8742718FDAAFF009AB2E7 /* button-window-minimize@2x.png */; };
+		B7C8749318FDAAFF009AB2E7 /* button-window-panic.png in Resources */ = {isa = PBXBuildFile; fileRef = B7C8742818FDAAFF009AB2E7 /* button-window-panic.png */; };
+		B7C8749418FDAAFF009AB2E7 /* button-window-panic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7C8742918FDAAFF009AB2E7 /* button-window-panic@2x.png */; };
+		B7C8749518FDAAFF009AB2E7 /* button-window-zoom.png in Resources */ = {isa = PBXBuildFile; fileRef = B7C8742A18FDAAFF009AB2E7 /* button-window-zoom.png */; };
+		B7C8749618FDAAFF009AB2E7 /* button-window-zoom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7C8742B18FDAAFF009AB2E7 /* button-window-zoom@2x.png */; };
+		B7C8749918FDAAFF009AB2E7 /* DecryptMode.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7C8743018FDAAFF009AB2E7 /* DecryptMode.xib */; };
+		B7C8749A18FDAAFF009AB2E7 /* DecryptMode.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C8743218FDAAFF009AB2E7 /* DecryptMode.m */; };
+		B7C8749B18FDAAFF009AB2E7 /* detach.sh in Resources */ = {isa = PBXBuildFile; fileRef = B7C8743318FDAAFF009AB2E7 /* detach.sh */; };
+		B7C8749E18FDAAFF009AB2E7 /* Nub.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7C8743718FDAAFF009AB2E7 /* Nub.xib */; };
+		B7C8749F18FDAAFF009AB2E7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7C8743918FDAAFF009AB2E7 /* MainMenu.xib */; };
+		B7C874A018FDAAFF009AB2E7 /* EncryptMode.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7C8743B18FDAAFF009AB2E7 /* EncryptMode.xib */; };
+		B7C874A118FDAAFF009AB2E7 /* EncryptMode.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C8743D18FDAAFF009AB2E7 /* EncryptMode.m */; };
+		B7C874A418FDAAFF009AB2E7 /* NubSpaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C8744218FDAAFF009AB2E7 /* NubSpaceView.m */; };
+		B7C874A718FDAAFF009AB2E7 /* Media.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7C8744618FDAAFF009AB2E7 /* Media.xib */; };
+		B7C874A818FDAAFF009AB2E7 /* NubMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C8744818FDAAFF009AB2E7 /* NubMedia.m */; };
+		B7C874A918FDAAFF009AB2E7 /* NubMode.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7C8744918FDAAFF009AB2E7 /* NubMode.xib */; };
+		B7C874AA18FDAAFF009AB2E7 /* NubMode.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C8744B18FDAAFF009AB2E7 /* NubMode.m */; };
+		B7C874AB18FDAAFF009AB2E7 /* ModeController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C8744D18FDAAFF009AB2E7 /* ModeController.m */; };
+		B7C874B018FDAAFF009AB2E7 /* NSColor+Archiving.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C8745518FDAAFF009AB2E7 /* NSColor+Archiving.m */; };
+		B7C874B118FDAAFF009AB2E7 /* NSColor+Rainbows.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C8745718FDAAFF009AB2E7 /* NSColor+Rainbows.m */; };
+		B7C874B218FDAAFF009AB2E7 /* NSFileManager+Hashing.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C8745918FDAAFF009AB2E7 /* NSFileManager+Hashing.m */; };
+		B7C874B318FDAAFF009AB2E7 /* NSFileManager+Stats.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C8745B18FDAAFF009AB2E7 /* NSFileManager+Stats.m */; };
+		B7C874B418FDAAFF009AB2E7 /* NSString+ByteCount.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C8745D18FDAAFF009AB2E7 /* NSString+ByteCount.m */; };
+		B7C874B718FDAAFF009AB2E7 /* NubBrandTrafficButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C8746318FDAAFF009AB2E7 /* NubBrandTrafficButton.m */; };
+		B7C874B818FDAAFF009AB2E7 /* NubBrandView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C8746518FDAAFF009AB2E7 /* NubBrandView.m */; };
+		B7C874B918FDAAFF009AB2E7 /* NubBrandWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C8746718FDAAFF009AB2E7 /* NubBrandWindow.m */; };
+		B7C874BA18FDAAFF009AB2E7 /* NubBucket.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C8746918FDAAFF009AB2E7 /* NubBucket.m */; };
+		B7C874BB18FDAAFF009AB2E7 /* NubItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C8746B18FDAAFF009AB2E7 /* NubItem.m */; };
+		B7C874BC18FDAAFF009AB2E7 /* NubItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C8746D18FDAAFF009AB2E7 /* NubItemCell.m */; };
+		B7C874BD18FDAAFF009AB2E7 /* NubBucketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C8746F18FDAAFF009AB2E7 /* NubBucketManager.m */; };
+		B7C874BE18FDAAFF009AB2E7 /* NubItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C8747118FDAAFF009AB2E7 /* NubItemView.m */; };
+		B7C874C318FDAAFF009AB2E7 /* NubItemSource.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C8747B18FDAAFF009AB2E7 /* NubItemSource.m */; };
+		B7C874C418FDAAFF009AB2E7 /* NubSparseBundleBucket.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C8747D18FDAAFF009AB2E7 /* NubSparseBundleBucket.m */; };
+		B7C874C518FDAAFF009AB2E7 /* NubMediaView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C8747F18FDAAFF009AB2E7 /* NubMediaView.m */; };
+		B7C874C718FDAAFF009AB2E7 /* OptionsMode.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7C8748218FDAAFF009AB2E7 /* OptionsMode.xib */; };
+		B7C874C818FDAAFF009AB2E7 /* OptionsMode.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C8748418FDAAFF009AB2E7 /* OptionsMode.m */; };
+		B7C874C918FDAAFF009AB2E7 /* ExitMode.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7C8748618FDAAFF009AB2E7 /* ExitMode.xib */; };
+		B7C874CA18FDAAFF009AB2E7 /* ExitMode.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C8748818FDAAFF009AB2E7 /* ExitMode.m */; };
+		B7E97E441B5EE1C700DD9CE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7E97E431B5EE1C700DD9CE8 /* Assets.xcassets */; };
+		B7EE7BB81B10105300E74522 /* NubSpecialView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EE7BB71B10105300E74522 /* NubSpecialView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0265998C1A127A7500245496 /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libz.1.dylib; sourceTree = "<group>"; };
+		02B7A8101A09836400A623E5 /* Bot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bot.h; path = lolnub/Bot.h; sourceTree = "<group>"; };
+		02F6058C1A0C8B1A009335F3 /* NubBrandButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NubBrandButton.h; sourceTree = "<group>"; };
+		02F6058D1A0C8B1A009335F3 /* NubBrandButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NubBrandButton.m; sourceTree = "<group>"; };
+		B710EE1318FD87C3008882C0 /* mysweetsweetgoldenboy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mysweetsweetgoldenboy.png; path = lolnub/mysweetsweetgoldenboy.png; sourceTree = "<group>"; };
+		B71BE99B196748300007E036 /* template.nub */ = {isa = PBXFileReference; lastKnownFileType = folder; path = template.nub; sourceTree = "<group>"; };
+		B71BE9A219675E8B0007E036 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B71BE9A419675E8B0007E036 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B71CC25D192120DC00ABFAA1 /* NubFolderBucket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NubFolderBucket.h; sourceTree = "<group>"; };
+		B71CC25E192120DC00ABFAA1 /* NubFolderBucket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NubFolderBucket.m; sourceTree = "<group>"; };
+		B721252B1B8AEAFE004D7A32 /* patches-logo_512px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "patches-logo_512px.png"; sourceTree = "<group>"; };
+		B7279B721B8BCE5900A49DE6 /* patches-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "patches-logo.png"; sourceTree = "<group>"; };
+		B74D6AC11B8ADC4A0066E5EF /* lolnub-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "lolnub-Info.plist"; sourceTree = "<group>"; };
+		B75364651B686C7D00D2C286 /* castle-logo_512px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "castle-logo_512px.png"; sourceTree = "<group>"; };
+		B75364661B686C7D00D2C286 /* nubcake-logo_512px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nubcake-logo_512px.png"; sourceTree = "<group>"; };
+		B764C3581A88FB5500B54D80 /* lolnub.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = lolnub.entitlements; sourceTree = "<group>"; };
+		B766717818F9E3AB007CDAB1 /* lolnub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lolnub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B766717B18F9E3AB007CDAB1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B766717E18F9E3AB007CDAB1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B766717F18F9E3AB007CDAB1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B766718018F9E3AB007CDAB1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B766718318F9E3AB007CDAB1 /* lolnub-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "lolnub-Info.plist"; sourceTree = "<group>"; };
+		B766718718F9E3AB007CDAB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B76671B218F9E3ED007CDAB1 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B76671B418F9E3ED007CDAB1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B79E35151B5CA24200DA10F2 /* BotMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BotMode.h; sourceTree = "<group>"; };
+		B79E35161B5CA24200DA10F2 /* BotMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BotMode.m; sourceTree = "<group>"; };
+		B7A173201B18F480001DBDC0 /* BotMode.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BotMode.xib; sourceTree = "<group>"; };
+		B7AB0A6219E5C21C00283B5B /* Bot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Bot.m; path = lolnub/Bot.m; sourceTree = "<group>"; };
+		B7AB0A6319E5C21C00283B5B /* BotController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BotController.h; path = lolnub/BotController.h; sourceTree = "<group>"; };
+		B7AB0A6419E5C21C00283B5B /* BotController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BotController.m; path = lolnub/BotController.m; sourceTree = "<group>"; };
+		B7AB0A6519E5C21C00283B5B /* BotModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BotModal.h; path = lolnub/BotModal.h; sourceTree = "<group>"; };
+		B7AB0A6619E5C21C00283B5B /* BotModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BotModal.m; path = lolnub/BotModal.m; sourceTree = "<group>"; };
+		B7AB0A6719E5C21C00283B5B /* BotModalController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BotModalController.h; path = lolnub/BotModalController.h; sourceTree = "<group>"; };
+		B7AB0A6819E5C21C00283B5B /* BotModalController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BotModalController.m; path = lolnub/BotModalController.m; sourceTree = "<group>"; };
+		B7BDBAF61A6DBFE9003B9C1E /* WebMode.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebMode.xib; sourceTree = "<group>"; };
+		B7BDBAF71A6DBFE9003B9C1E /* WebMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebMode.h; sourceTree = "<group>"; };
+		B7BDBAF81A6DBFE9003B9C1E /* WebMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebMode.m; sourceTree = "<group>"; };
+		B7C873ED18FDA946009AB2E7 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		B7C8741218FDAA54009AB2E7 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		B7C8741418FDAA60009AB2E7 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
+		B7C8741618FDAA6B009AB2E7 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		B7C8741718FDAA6B009AB2E7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B7C8741B18FDAAFF009AB2E7 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = lolnub/AppController.h; sourceTree = "<group>"; };
+		B7C8741C18FDAAFF009AB2E7 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppController.m; path = lolnub/AppController.m; sourceTree = "<group>"; };
+		B7C8742018FDAAFF009AB2E7 /* Nub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Nub.h; path = lolnub/Nub.h; sourceTree = "<group>"; };
+		B7C8742118FDAAFF009AB2E7 /* Nub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Nub.m; path = lolnub/Nub.m; sourceTree = "<group>"; };
+		B7C8742218FDAAFF009AB2E7 /* NubWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NubWindowController.h; path = lolnub/NubWindowController.h; sourceTree = "<group>"; };
+		B7C8742318FDAAFF009AB2E7 /* NubWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NubWindowController.m; path = lolnub/NubWindowController.m; sourceTree = "<group>"; };
+		B7C8742418FDAAFF009AB2E7 /* button-window-close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-window-close.png"; path = "lolnub/button-window-close.png"; sourceTree = "<group>"; };
+		B7C8742518FDAAFF009AB2E7 /* button-window-close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-window-close@2x.png"; path = "lolnub/button-window-close@2x.png"; sourceTree = "<group>"; };
+		B7C8742618FDAAFF009AB2E7 /* button-window-minimize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-window-minimize.png"; path = "lolnub/button-window-minimize.png"; sourceTree = "<group>"; };
+		B7C8742718FDAAFF009AB2E7 /* button-window-minimize@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-window-minimize@2x.png"; path = "lolnub/button-window-minimize@2x.png"; sourceTree = "<group>"; };
+		B7C8742818FDAAFF009AB2E7 /* button-window-panic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-window-panic.png"; path = "lolnub/button-window-panic.png"; sourceTree = "<group>"; };
+		B7C8742918FDAAFF009AB2E7 /* button-window-panic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-window-panic@2x.png"; path = "lolnub/button-window-panic@2x.png"; sourceTree = "<group>"; };
+		B7C8742A18FDAAFF009AB2E7 /* button-window-zoom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-window-zoom.png"; path = "lolnub/button-window-zoom.png"; sourceTree = "<group>"; };
+		B7C8742B18FDAAFF009AB2E7 /* button-window-zoom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-window-zoom@2x.png"; path = "lolnub/button-window-zoom@2x.png"; sourceTree = "<group>"; };
+		B7C8743018FDAAFF009AB2E7 /* DecryptMode.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DecryptMode.xib; sourceTree = "<group>"; };
+		B7C8743118FDAAFF009AB2E7 /* DecryptMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecryptMode.h; sourceTree = "<group>"; };
+		B7C8743218FDAAFF009AB2E7 /* DecryptMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecryptMode.m; sourceTree = "<group>"; };
+		B7C8743318FDAAFF009AB2E7 /* detach.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = detach.sh; sourceTree = "<group>"; };
+		B7C8743818FDAAFF009AB2E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Nub.xib; sourceTree = "<group>"; };
+		B7C8743A18FDAAFF009AB2E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B7C8743B18FDAAFF009AB2E7 /* EncryptMode.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EncryptMode.xib; sourceTree = "<group>"; };
+		B7C8743C18FDAAFF009AB2E7 /* EncryptMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptMode.h; sourceTree = "<group>"; };
+		B7C8743D18FDAAFF009AB2E7 /* EncryptMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryptMode.m; sourceTree = "<group>"; };
+		B7C8744118FDAAFF009AB2E7 /* NubSpaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NubSpaceView.h; sourceTree = "<group>"; };
+		B7C8744218FDAAFF009AB2E7 /* NubSpaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NubSpaceView.m; sourceTree = "<group>"; };
+		B7C8744418FDAAFF009AB2E7 /* lolnub-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "lolnub-Prefix.pch"; sourceTree = "<group>"; };
+		B7C8744618FDAAFF009AB2E7 /* Media.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Media.xib; sourceTree = "<group>"; };
+		B7C8744718FDAAFF009AB2E7 /* NubMedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NubMedia.h; sourceTree = "<group>"; };
+		B7C8744818FDAAFF009AB2E7 /* NubMedia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NubMedia.m; sourceTree = "<group>"; };
+		B7C8744918FDAAFF009AB2E7 /* NubMode.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NubMode.xib; path = lolnub/NubMode.xib; sourceTree = "<group>"; };
+		B7C8744A18FDAAFF009AB2E7 /* NubMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NubMode.h; path = lolnub/NubMode.h; sourceTree = "<group>"; };
+		B7C8744B18FDAAFF009AB2E7 /* NubMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NubMode.m; path = lolnub/NubMode.m; sourceTree = "<group>"; };
+		B7C8744C18FDAAFF009AB2E7 /* ModeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModeController.h; path = lolnub/ModeController.h; sourceTree = "<group>"; };
+		B7C8744D18FDAAFF009AB2E7 /* ModeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModeController.m; path = lolnub/ModeController.m; sourceTree = "<group>"; };
+		B7C8745418FDAAFF009AB2E7 /* NSColor+Archiving.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+Archiving.h"; sourceTree = "<group>"; };
+		B7C8745518FDAAFF009AB2E7 /* NSColor+Archiving.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+Archiving.m"; sourceTree = "<group>"; };
+		B7C8745618FDAAFF009AB2E7 /* NSColor+Rainbows.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+Rainbows.h"; sourceTree = "<group>"; };
+		B7C8745718FDAAFF009AB2E7 /* NSColor+Rainbows.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+Rainbows.m"; sourceTree = "<group>"; };
+		B7C8745818FDAAFF009AB2E7 /* NSFileManager+Hashing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+Hashing.h"; sourceTree = "<group>"; };
+		B7C8745918FDAAFF009AB2E7 /* NSFileManager+Hashing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+Hashing.m"; sourceTree = "<group>"; };
+		B7C8745A18FDAAFF009AB2E7 /* NSFileManager+Stats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+Stats.h"; sourceTree = "<group>"; };
+		B7C8745B18FDAAFF009AB2E7 /* NSFileManager+Stats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+Stats.m"; sourceTree = "<group>"; };
+		B7C8745C18FDAAFF009AB2E7 /* NSString+ByteCount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ByteCount.h"; sourceTree = "<group>"; };
+		B7C8745D18FDAAFF009AB2E7 /* NSString+ByteCount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ByteCount.m"; sourceTree = "<group>"; };
+		B7C8746218FDAAFF009AB2E7 /* NubBrandTrafficButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NubBrandTrafficButton.h; sourceTree = "<group>"; };
+		B7C8746318FDAAFF009AB2E7 /* NubBrandTrafficButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NubBrandTrafficButton.m; sourceTree = "<group>"; };
+		B7C8746418FDAAFF009AB2E7 /* NubBrandView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NubBrandView.h; sourceTree = "<group>"; };
+		B7C8746518FDAAFF009AB2E7 /* NubBrandView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NubBrandView.m; sourceTree = "<group>"; };
+		B7C8746618FDAAFF009AB2E7 /* NubBrandWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NubBrandWindow.h; sourceTree = "<group>"; };
+		B7C8746718FDAAFF009AB2E7 /* NubBrandWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NubBrandWindow.m; sourceTree = "<group>"; };
+		B7C8746818FDAAFF009AB2E7 /* NubBucket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NubBucket.h; sourceTree = "<group>"; };
+		B7C8746918FDAAFF009AB2E7 /* NubBucket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NubBucket.m; sourceTree = "<group>"; };
+		B7C8746A18FDAAFF009AB2E7 /* NubItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NubItem.h; sourceTree = "<group>"; };
+		B7C8746B18FDAAFF009AB2E7 /* NubItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NubItem.m; sourceTree = "<group>"; };
+		B7C8746C18FDAAFF009AB2E7 /* NubItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NubItemCell.h; sourceTree = "<group>"; };
+		B7C8746D18FDAAFF009AB2E7 /* NubItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NubItemCell.m; sourceTree = "<group>"; };
+		B7C8746E18FDAAFF009AB2E7 /* NubBucketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NubBucketManager.h; sourceTree = "<group>"; };
+		B7C8746F18FDAAFF009AB2E7 /* NubBucketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NubBucketManager.m; sourceTree = "<group>"; };
+		B7C8747018FDAAFF009AB2E7 /* NubItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NubItemView.h; sourceTree = "<group>"; };
+		B7C8747118FDAAFF009AB2E7 /* NubItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NubItemView.m; sourceTree = "<group>"; };
+		B7C8747A18FDAAFF009AB2E7 /* NubItemSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NubItemSource.h; sourceTree = "<group>"; };
+		B7C8747B18FDAAFF009AB2E7 /* NubItemSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NubItemSource.m; sourceTree = "<group>"; };
+		B7C8747C18FDAAFF009AB2E7 /* NubSparseBundleBucket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NubSparseBundleBucket.h; sourceTree = "<group>"; };
+		B7C8747D18FDAAFF009AB2E7 /* NubSparseBundleBucket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NubSparseBundleBucket.m; sourceTree = "<group>"; };
+		B7C8747E18FDAAFF009AB2E7 /* NubMediaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NubMediaView.h; sourceTree = "<group>"; };
+		B7C8747F18FDAAFF009AB2E7 /* NubMediaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NubMediaView.m; sourceTree = "<group>"; };
+		B7C8748218FDAAFF009AB2E7 /* OptionsMode.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OptionsMode.xib; sourceTree = "<group>"; };
+		B7C8748318FDAAFF009AB2E7 /* OptionsMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsMode.h; sourceTree = "<group>"; };
+		B7C8748418FDAAFF009AB2E7 /* OptionsMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsMode.m; sourceTree = "<group>"; };
+		B7C8748618FDAAFF009AB2E7 /* ExitMode.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExitMode.xib; sourceTree = "<group>"; };
+		B7C8748718FDAAFF009AB2E7 /* ExitMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExitMode.h; sourceTree = "<group>"; };
+		B7C8748818FDAAFF009AB2E7 /* ExitMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExitMode.m; sourceTree = "<group>"; };
+		B7E97E431B5EE1C700DD9CE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7EE7BB61B10105300E74522 /* NubSpecialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NubSpecialView.h; sourceTree = "<group>"; };
+		B7EE7BB71B10105300E74522 /* NubSpecialView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NubSpecialView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B766717518F9E3AB007CDAB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7C8741818FDAA6B009AB2E7 /* Quartz.framework in Frameworks */,
+				B7C8741918FDAA6B009AB2E7 /* QuartzCore.framework in Frameworks */,
+				0265998D1A127A7500245496 /* libz.1.dylib in Frameworks */,
+				B7C8741518FDAA60009AB2E7 /* QTKit.framework in Frameworks */,
+				B7C8741318FDAA54009AB2E7 /* WebKit.framework in Frameworks */,
+				B7C873EE18FDA946009AB2E7 /* QuickLook.framework in Frameworks */,
+				B766717C18F9E3AB007CDAB1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7256E901A783FF900EA845F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B7C8747A18FDAAFF009AB2E7 /* NubItemSource.h */,
+				B7C8747B18FDAAFF009AB2E7 /* NubItemSource.m */,
+				B7C8746A18FDAAFF009AB2E7 /* NubItem.h */,
+				B7C8746B18FDAAFF009AB2E7 /* NubItem.m */,
+				B7C8746E18FDAAFF009AB2E7 /* NubBucketManager.h */,
+				B7C8746F18FDAAFF009AB2E7 /* NubBucketManager.m */,
+				B7C8746818FDAAFF009AB2E7 /* NubBucket.h */,
+				B7C8746918FDAAFF009AB2E7 /* NubBucket.m */,
+				B71CC25D192120DC00ABFAA1 /* NubFolderBucket.h */,
+				B71CC25E192120DC00ABFAA1 /* NubFolderBucket.m */,
+				B7C8747C18FDAAFF009AB2E7 /* NubSparseBundleBucket.h */,
+				B7C8747D18FDAAFF009AB2E7 /* NubSparseBundleBucket.m */,
+			);
+			name = Data;
+			path = lolnub;
+			sourceTree = "<group>";
+		};
+		B74406A5190081E200134B00 /* Modes */ = {
+			isa = PBXGroup;
+			children = (
+				B7A173201B18F480001DBDC0 /* BotMode.xib */,
+				B79E35151B5CA24200DA10F2 /* BotMode.h */,
+				B79E35161B5CA24200DA10F2 /* BotMode.m */,
+				B7BDBAF61A6DBFE9003B9C1E /* WebMode.xib */,
+				B7BDBAF71A6DBFE9003B9C1E /* WebMode.h */,
+				B7BDBAF81A6DBFE9003B9C1E /* WebMode.m */,
+				B7C8744618FDAAFF009AB2E7 /* Media.xib */,
+				B7C8744718FDAAFF009AB2E7 /* NubMedia.h */,
+				B7C8744818FDAAFF009AB2E7 /* NubMedia.m */,
+			);
+			name = Modes;
+			path = lolnub;
+			sourceTree = "<group>";
+		};
+		B74406A71900820D00134B00 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				B7C8745418FDAAFF009AB2E7 /* NSColor+Archiving.h */,
+				B7C8745518FDAAFF009AB2E7 /* NSColor+Archiving.m */,
+				B7C8745618FDAAFF009AB2E7 /* NSColor+Rainbows.h */,
+				B7C8745718FDAAFF009AB2E7 /* NSColor+Rainbows.m */,
+				B7C8745818FDAAFF009AB2E7 /* NSFileManager+Hashing.h */,
+				B7C8745918FDAAFF009AB2E7 /* NSFileManager+Hashing.m */,
+				B7C8745A18FDAAFF009AB2E7 /* NSFileManager+Stats.h */,
+				B7C8745B18FDAAFF009AB2E7 /* NSFileManager+Stats.m */,
+				B7C8745C18FDAAFF009AB2E7 /* NSString+ByteCount.h */,
+				B7C8745D18FDAAFF009AB2E7 /* NSString+ByteCount.m */,
+			);
+			name = Others;
+			path = lolnub;
+			sourceTree = "<group>";
+		};
+		B74406A81900821900134B00 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B7C8747018FDAAFF009AB2E7 /* NubItemView.h */,
+				B7C8747118FDAAFF009AB2E7 /* NubItemView.m */,
+				B7C8746C18FDAAFF009AB2E7 /* NubItemCell.h */,
+				B7C8746D18FDAAFF009AB2E7 /* NubItemCell.m */,
+				B7C8746418FDAAFF009AB2E7 /* NubBrandView.h */,
+				B7C8746518FDAAFF009AB2E7 /* NubBrandView.m */,
+				B7C8744118FDAAFF009AB2E7 /* NubSpaceView.h */,
+				B7C8744218FDAAFF009AB2E7 /* NubSpaceView.m */,
+				02F6058C1A0C8B1A009335F3 /* NubBrandButton.h */,
+				02F6058D1A0C8B1A009335F3 /* NubBrandButton.m */,
+				B7C8746218FDAAFF009AB2E7 /* NubBrandTrafficButton.h */,
+				B7C8746318FDAAFF009AB2E7 /* NubBrandTrafficButton.m */,
+				B7EE7BB61B10105300E74522 /* NubSpecialView.h */,
+				B7EE7BB71B10105300E74522 /* NubSpecialView.m */,
+				B7C8747E18FDAAFF009AB2E7 /* NubMediaView.h */,
+				B7C8747F18FDAAFF009AB2E7 /* NubMediaView.m */,
+				B7C8746618FDAAFF009AB2E7 /* NubBrandWindow.h */,
+				B7C8746718FDAAFF009AB2E7 /* NubBrandWindow.m */,
+			);
+			name = Views;
+			path = lolnub;
+			sourceTree = "<group>";
+		};
+		B766716F18F9E3AA007CDAB1 = {
+			isa = PBXGroup;
+			children = (
+				B766718118F9E3AB007CDAB1 /* Project */,
+				B7C8743918FDAAFF009AB2E7 /* MainMenu.xib */,
+				B7C8741B18FDAAFF009AB2E7 /* AppController.h */,
+				B7C8741C18FDAAFF009AB2E7 /* AppController.m */,
+				B7C8742218FDAAFF009AB2E7 /* NubWindowController.h */,
+				B7C8742318FDAAFF009AB2E7 /* NubWindowController.m */,
+				B7C8744C18FDAAFF009AB2E7 /* ModeController.h */,
+				B7C8744D18FDAAFF009AB2E7 /* ModeController.m */,
+				B7C8743718FDAAFF009AB2E7 /* Nub.xib */,
+				B7C8742018FDAAFF009AB2E7 /* Nub.h */,
+				B7C8742118FDAAFF009AB2E7 /* Nub.m */,
+				B7C8744918FDAAFF009AB2E7 /* NubMode.xib */,
+				B7C8744A18FDAAFF009AB2E7 /* NubMode.h */,
+				B7C8744B18FDAAFF009AB2E7 /* NubMode.m */,
+				B74406A5190081E200134B00 /* Modes */,
+				B7C8741A18FDAAFF009AB2E7 /* Meta */,
+				B7AF6E61192089DF00D7DDDC /* Bots */,
+				B7256E901A783FF900EA845F /* Data */,
+				B74406A81900821900134B00 /* Views */,
+				B74406A71900820D00134B00 /* Others */,
+				B76671B818F9E3F4007CDAB1 /* Resources */,
+				B766717A18F9E3AB007CDAB1 /* Frameworks */,
+				B766717918F9E3AB007CDAB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B766717918F9E3AB007CDAB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B766717818F9E3AB007CDAB1 /* lolnub.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B766717A18F9E3AB007CDAB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7C8741618FDAA6B009AB2E7 /* Quartz.framework */,
+				B7C8741718FDAA6B009AB2E7 /* QuartzCore.framework */,
+				B7C8741418FDAA60009AB2E7 /* QTKit.framework */,
+				B7C8741218FDAA54009AB2E7 /* WebKit.framework */,
+				B7C873ED18FDA946009AB2E7 /* QuickLook.framework */,
+				B766717B18F9E3AB007CDAB1 /* Cocoa.framework */,
+				B71BE9A219675E8B0007E036 /* Foundation.framework */,
+				B71BE9A419675E8B0007E036 /* CoreGraphics.framework */,
+				B766717D18F9E3AB007CDAB1 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B766717D18F9E3AB007CDAB1 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0265998C1A127A7500245496 /* libz.1.dylib */,
+				B766717E18F9E3AB007CDAB1 /* AppKit.framework */,
+				B766717F18F9E3AB007CDAB1 /* CoreData.framework */,
+				B766718018F9E3AB007CDAB1 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B766718118F9E3AB007CDAB1 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				B76671B218F9E3ED007CDAB1 /* LICENSE */,
+				B76671B418F9E3ED007CDAB1 /* README.md */,
+				B7E97E431B5EE1C700DD9CE8 /* Assets.xcassets */,
+				B764C3581A88FB5500B54D80 /* lolnub.entitlements */,
+				B766718718F9E3AB007CDAB1 /* main.m */,
+				B7C8744418FDAAFF009AB2E7 /* lolnub-Prefix.pch */,
+				B74D6AC11B8ADC4A0066E5EF /* lolnub-Info.plist */,
+				B766718318F9E3AB007CDAB1 /* lolnub-Info.plist */,
+				B71BE99B196748300007E036 /* template.nub */,
+				B7C8743318FDAAFF009AB2E7 /* detach.sh */,
+			);
+			name = Project;
+			path = lolnub;
+			sourceTree = "<group>";
+		};
+		B76671B818F9E3F4007CDAB1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B75364651B686C7D00D2C286 /* castle-logo_512px.png */,
+				B7279B721B8BCE5900A49DE6 /* patches-logo.png */,
+				B75364661B686C7D00D2C286 /* nubcake-logo_512px.png */,
+				B710EE1318FD87C3008882C0 /* mysweetsweetgoldenboy.png */,
+				B721252B1B8AEAFE004D7A32 /* patches-logo_512px.png */,
+				B7C8742518FDAAFF009AB2E7 /* button-window-close@2x.png */,
+				B7C8742418FDAAFF009AB2E7 /* button-window-close.png */,
+				B7C8742618FDAAFF009AB2E7 /* button-window-minimize.png */,
+				B7C8742718FDAAFF009AB2E7 /* button-window-minimize@2x.png */,
+				B7C8742818FDAAFF009AB2E7 /* button-window-panic.png */,
+				B7C8742918FDAAFF009AB2E7 /* button-window-panic@2x.png */,
+				B7C8742A18FDAAFF009AB2E7 /* button-window-zoom.png */,
+				B7C8742B18FDAAFF009AB2E7 /* button-window-zoom@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B7AF6E61192089DF00D7DDDC /* Bots */ = {
+			isa = PBXGroup;
+			children = (
+				02B7A8101A09836400A623E5 /* Bot.h */,
+				B7AB0A6219E5C21C00283B5B /* Bot.m */,
+				B7AB0A6319E5C21C00283B5B /* BotController.h */,
+				B7AB0A6419E5C21C00283B5B /* BotController.m */,
+				B7AB0A6719E5C21C00283B5B /* BotModalController.h */,
+				B7AB0A6819E5C21C00283B5B /* BotModalController.m */,
+				B7AB0A6519E5C21C00283B5B /* BotModal.h */,
+				B7AB0A6619E5C21C00283B5B /* BotModal.m */,
+			);
+			name = Bots;
+			sourceTree = "<group>";
+		};
+		B7C8741A18FDAAFF009AB2E7 /* Meta */ = {
+			isa = PBXGroup;
+			children = (
+				B7C8743B18FDAAFF009AB2E7 /* EncryptMode.xib */,
+				B7C8743C18FDAAFF009AB2E7 /* EncryptMode.h */,
+				B7C8743D18FDAAFF009AB2E7 /* EncryptMode.m */,
+				B7C8743018FDAAFF009AB2E7 /* DecryptMode.xib */,
+				B7C8743118FDAAFF009AB2E7 /* DecryptMode.h */,
+				B7C8743218FDAAFF009AB2E7 /* DecryptMode.m */,
+				B7C8748218FDAAFF009AB2E7 /* OptionsMode.xib */,
+				B7C8748318FDAAFF009AB2E7 /* OptionsMode.h */,
+				B7C8748418FDAAFF009AB2E7 /* OptionsMode.m */,
+				B7C8748618FDAAFF009AB2E7 /* ExitMode.xib */,
+				B7C8748718FDAAFF009AB2E7 /* ExitMode.h */,
+				B7C8748818FDAAFF009AB2E7 /* ExitMode.m */,
+			);
+			name = Meta;
+			path = lolnub;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B766717718F9E3AB007CDAB1 /* lolnub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B76671AC18F9E3AB007CDAB1 /* Build configuration list for PBXNativeTarget "lolnub" */;
+			buildPhases = (
+				B766717418F9E3AB007CDAB1 /* Sources */,
+				B766717518F9E3AB007CDAB1 /* Frameworks */,
+				B766717618F9E3AB007CDAB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lolnub;
+			productName = lolnub;
+			productReference = B766717818F9E3AB007CDAB1 /* lolnub.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B766717018F9E3AB007CDAB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Nub;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = lolnub.com;
+				TargetAttributes = {
+					B766717718F9E3AB007CDAB1 = {
+						DevelopmentTeam = 42UXW477RQ;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = B766717318F9E3AB007CDAB1 /* Build configuration list for PBXProject "lolnub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B766716F18F9E3AA007CDAB1;
+			productRefGroup = B766717918F9E3AB007CDAB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B766717718F9E3AB007CDAB1 /* lolnub */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B766717618F9E3AB007CDAB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7C874C918FDAAFF009AB2E7 /* ExitMode.xib in Resources */,
+				B7C8749B18FDAAFF009AB2E7 /* detach.sh in Resources */,
+				B7E97E441B5EE1C700DD9CE8 /* Assets.xcassets in Resources */,
+				B7C8749918FDAAFF009AB2E7 /* DecryptMode.xib in Resources */,
+				B7A173231B18F480001DBDC0 /* BotMode.xib in Resources */,
+				B7279B731B8BCE5900A49DE6 /* patches-logo.png in Resources */,
+				B7C874A918FDAAFF009AB2E7 /* NubMode.xib in Resources */,
+				B7C874A718FDAAFF009AB2E7 /* Media.xib in Resources */,
+				B7C874C718FDAAFF009AB2E7 /* OptionsMode.xib in Resources */,
+				B7C8749318FDAAFF009AB2E7 /* button-window-panic.png in Resources */,
+				B7C874A018FDAAFF009AB2E7 /* EncryptMode.xib in Resources */,
+				B7BDBAF91A6DBFE9003B9C1E /* WebMode.xib in Resources */,
+				B71BE99C196748300007E036 /* template.nub in Resources */,
+				B7C8749F18FDAAFF009AB2E7 /* MainMenu.xib in Resources */,
+				B7C8749518FDAAFF009AB2E7 /* button-window-zoom.png in Resources */,
+				B7C8749418FDAAFF009AB2E7 /* button-window-panic@2x.png in Resources */,
+				B7C8749218FDAAFF009AB2E7 /* button-window-minimize@2x.png in Resources */,
+				B7C8740718FDA9AD009AB2E7 /* LICENSE in Resources */,
+				B7C8749118FDAAFF009AB2E7 /* button-window-minimize.png in Resources */,
+				B7C8740A18FDA9AD009AB2E7 /* README.md in Resources */,
+				B75364681B686C7D00D2C286 /* nubcake-logo_512px.png in Resources */,
+				B7C8749018FDAAFF009AB2E7 /* button-window-close@2x.png in Resources */,
+				B75364671B686C7D00D2C286 /* castle-logo_512px.png in Resources */,
+				B721252C1B8AEAFE004D7A32 /* patches-logo_512px.png in Resources */,
+				B7C8748F18FDAAFF009AB2E7 /* button-window-close.png in Resources */,
+				B7C8749618FDAAFF009AB2E7 /* button-window-zoom@2x.png in Resources */,
+				B74D6AC21B8ADC4A0066E5EF /* lolnub-Info.plist in Resources */,
+				B7C8749E18FDAAFF009AB2E7 /* Nub.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B766717418F9E3AB007CDAB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7C874C418FDAAFF009AB2E7 /* NubSparseBundleBucket.m in Sources */,
+				B71CC25F192120DC00ABFAA1 /* NubFolderBucket.m in Sources */,
+				B7C874A418FDAAFF009AB2E7 /* NubSpaceView.m in Sources */,
+				B7AB0AD019E5C21C00283B5B /* BotModalController.m in Sources */,
+				B7C874BD18FDAAFF009AB2E7 /* NubBucketManager.m in Sources */,
+				B7C874C318FDAAFF009AB2E7 /* NubItemSource.m in Sources */,
+				B7C874A118FDAAFF009AB2E7 /* EncryptMode.m in Sources */,
+				B7C874BE18FDAAFF009AB2E7 /* NubItemView.m in Sources */,
+				B7C8749A18FDAAFF009AB2E7 /* DecryptMode.m in Sources */,
+				B7C8748D18FDAAFF009AB2E7 /* Nub.m in Sources */,
+				B7EE7BB81B10105300E74522 /* NubSpecialView.m in Sources */,
+				B7AB0ACF19E5C21C00283B5B /* BotModal.m in Sources */,
+				B7BDBAFA1A6DBFE9003B9C1E /* WebMode.m in Sources */,
+				B7C874B918FDAAFF009AB2E7 /* NubBrandWindow.m in Sources */,
+				B7C874B118FDAAFF009AB2E7 /* NSColor+Rainbows.m in Sources */,
+				B7AB0ACD19E5C21C00283B5B /* Bot.m in Sources */,
+				B79E35171B5CA24200DA10F2 /* BotMode.m in Sources */,
+				B7AB0ACE19E5C21C00283B5B /* BotController.m in Sources */,
+				B7C874B418FDAAFF009AB2E7 /* NSString+ByteCount.m in Sources */,
+				B7C874B318FDAAFF009AB2E7 /* NSFileManager+Stats.m in Sources */,
+				B7C874C818FDAAFF009AB2E7 /* OptionsMode.m in Sources */,
+				B7C874C518FDAAFF009AB2E7 /* NubMediaView.m in Sources */,
+				B7C874BA18FDAAFF009AB2E7 /* NubBucket.m in Sources */,
+				B7C874CA18FDAAFF009AB2E7 /* ExitMode.m in Sources */,
+				B7C8748E18FDAAFF009AB2E7 /* NubWindowController.m in Sources */,
+				B7C874AA18FDAAFF009AB2E7 /* NubMode.m in Sources */,
+				B7C874AB18FDAAFF009AB2E7 /* ModeController.m in Sources */,
+				B7C874B218FDAAFF009AB2E7 /* NSFileManager+Hashing.m in Sources */,
+				B7C874BC18FDAAFF009AB2E7 /* NubItemCell.m in Sources */,
+				B7C8748A18FDAAFF009AB2E7 /* AppController.m in Sources */,
+				B7C874B818FDAAFF009AB2E7 /* NubBrandView.m in Sources */,
+				B766718818F9E3AB007CDAB1 /* main.m in Sources */,
+				B7C874B718FDAAFF009AB2E7 /* NubBrandTrafficButton.m in Sources */,
+				B7C874B018FDAAFF009AB2E7 /* NSColor+Archiving.m in Sources */,
+				02F6058E1A0C8B1A009335F3 /* NubBrandButton.m in Sources */,
+				B7C874A818FDAAFF009AB2E7 /* NubMedia.m in Sources */,
+				B7C874BB18FDAAFF009AB2E7 /* NubItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B7C8743718FDAAFF009AB2E7 /* Nub.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7C8743818FDAAFF009AB2E7 /* en */,
+			);
+			name = Nub.xib;
+			path = lolnub;
+			sourceTree = "<group>";
+		};
+		B7C8743918FDAAFF009AB2E7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7C8743A18FDAAFF009AB2E7 /* en */,
+			);
+			name = MainMenu.xib;
+			path = lolnub;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B728217E18FDBE0200030130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLY_RULES_IN_COPY_FILES = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=0",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PROFILING_CODE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = lolnub.app;
+				SDKROOT = macosx;
+				SEPARATE_STRIP = NO;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		B728217F18FDBE0200030130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lolnub/lolnub-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=0",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "lolnub/lolnub-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lolnub.lolnub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "lolnub-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALID_ARCHS = x86_64;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B76671AA18F9E3AB007CDAB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLY_RULES_IN_COPY_FILES = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=0",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PROFILING_CODE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = lolnub.app;
+				SDKROOT = macosx;
+				SEPARATE_STRIP = NO;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		B76671AD18F9E3AB007CDAB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lolnub/lolnub-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=0",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "lolnub/lolnub-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lolnub.lolnub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "lolnub-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALID_ARCHS = x86_64;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B766717318F9E3AB007CDAB1 /* Build configuration list for PBXProject "lolnub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B76671AA18F9E3AB007CDAB1 /* Debug */,
+				B728217E18FDBE0200030130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B76671AC18F9E3AB007CDAB1 /* Build configuration list for PBXNativeTarget "lolnub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B76671AD18F9E3AB007CDAB1 /* Debug */,
+				B728217F18FDBE0200030130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B766717018F9E3AB007CDAB1 /* Project object */;
+}

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9059"/>
+        <plugIn identifier="com.apple.QTKitIBPlugin" version="9059"/>
+        <plugIn identifier="com.apple.imagekit.ibplugin" version="9059"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NubMedia">
+            <connections>
+                <outlet property="imageView" destination="391" id="413"/>
+                <outlet property="imageWindow" destination="389" id="404"/>
+                <outlet property="mediaView" destination="391" id="397"/>
+                <outlet property="movieView" destination="411" id="414"/>
+                <outlet property="movieWindow" destination="405" id="412"/>
+                <outlet property="textWindow" destination="wzW-Rj-htX" id="DBX-Cj-Dom"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window title="#pix" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" frameAutosaveName="imageMedia" animationBehavior="default" id="389">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES"/>
+            <rect key="contentRect" x="459" y="308" width="800" height="720"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1577"/>
+            <value key="minSize" type="size" width="800" height="600"/>
+            <view key="contentView" id="390" customClass="NSVisualEffectView">
+                <rect key="frame" x="0.0" y="0.0" width="800" height="720"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <scrollView borderType="none" autohidesScrollers="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" usesPredominantAxisScrolling="NO" id="400">
+                        <rect key="frame" x="0.0" y="0.0" width="800" height="744"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <clipView key="contentView" id="88l-3o-90r">
+                            <rect key="frame" x="0.0" y="0.0" width="785" height="729"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <ikImageView wantsLayer="YES" zoomFactor="0.0" supportsDragAndDrop="NO" doubleClickOpensImageEditPanel="NO" id="391" customClass="NubMediaView">
+                                    <rect key="frame" x="0.0" y="0.0" width="931" height="1238"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <animations/>
+                                    <color key="backgroundColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <outlet property="delegate" destination="-2" id="398"/>
+                                    </connections>
+                                </ikImageView>
+                            </subviews>
+                            <animations/>
+                        </clipView>
+                        <animations/>
+                        <scroller key="horizontalScroller" verticalHuggingPriority="750" horizontal="YES" id="402">
+                            <rect key="frame" x="0.0" y="729" width="785" height="15"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <animations/>
+                        </scroller>
+                        <scroller key="verticalScroller" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="403">
+                            <rect key="frame" x="785" y="0.0" width="15" height="729"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <animations/>
+                        </scroller>
+                    </scrollView>
+                </subviews>
+                <animations/>
+            </view>
+            <connections>
+                <outlet property="delegate" destination="-2" id="399"/>
+            </connections>
+            <point key="canvasLocation" x="-38" y="355"/>
+        </window>
+        <window title="#mov" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" oneShot="NO" showsToolbarButton="NO" visibleAtLaunch="NO" frameAutosaveName="movieMedia" animationBehavior="default" id="405">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES" texturedBackground="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="163" y="199" width="640" height="480"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1577"/>
+            <view key="contentView" id="406" customClass="NSVisualEffectView">
+                <rect key="frame" x="0.0" y="0.0" width="640" height="480"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <qtMovieView preservesAspectRatio="YES" id="411">
+                        <rect key="frame" x="0.0" y="0.0" width="640" height="503"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="fillColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </qtMovieView>
+                </subviews>
+                <animations/>
+            </view>
+            <point key="canvasLocation" x="-494" y="-605"/>
+        </window>
+        <window title="Text" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" id="wzW-Rj-htX">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES" texturedBackground="YES" unifiedTitleAndToolbar="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="196" y="274" width="480" height="640"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1577"/>
+            <view key="contentView" wantsLayer="YES" id="BIJ-ia-iNX">
+                <rect key="frame" x="0.0" y="0.0" width="480" height="640"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <shadow key="shadow">
+                    <color key="color" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </shadow>
+                <animations/>
+            </view>
+            <point key="canvasLocation" x="-459" y="-1439"/>
+        </window>
+    </objects>
+</document>

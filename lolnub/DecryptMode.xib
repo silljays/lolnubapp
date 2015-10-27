@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="8164.2" systemVersion="15A263e" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="8164.2"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="DecryptMode">
+            <connections>
+                <outlet property="baseView" destination="404" id="422"/>
+                <outlet property="bucketHint" destination="440" id="LVX-3Q-3pJ"/>
+                <outlet property="bucketName" destination="VNS-Dx-WTq" id="8rN-ZX-ZJf"/>
+                <outlet property="bucketPasscode" destination="411" id="BiI-vs-49q"/>
+                <outlet property="view" destination="404" id="421"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="404" customClass="NubBrandView">
+            <rect key="frame" x="0.0" y="0.0" width="1080" height="720"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <customView wantsLayer="YES" id="s7f-vU-s6Z">
+                    <rect key="frame" x="0.0" y="0.0" width="1082" height="720"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <customView id="kFH-yS-Cxe">
+                            <rect key="frame" x="62" y="20" width="959" height="642"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <customView id="ynN-zK-Ytg">
+                                    <rect key="frame" x="0.0" y="114" width="959" height="215"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <textField wantsLayer="YES" verticalHuggingPriority="750" id="VNS-Dx-WTq">
+                                            <rect key="frame" x="-2" y="150" width="963" height="45"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                            <shadow key="shadow" blurRadius="2">
+                                                <color key="color" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="0.56000000000000005" colorSpace="calibratedRGB"/>
+                                            </shadow>
+                                            <animations>
+                                                <caTransition key="subviews">
+                                                    <mutableData key="keyedArchiveRepresentation">
+YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKkHCBES
+EwsKGR9VJG51bGzUCQoLDA0ODxBWJGNsYXNzVHR5cGVXc3VidHlwZV8QEl9fQ0FDb2RpbmdDb250ZW50
+c4AIgAOAAoAEWmZyb21Cb3R0b21WbW92ZUlu0hQJFRhaTlMub2JqZWN0c6IWF4AFgAaAB9IaGxwdWiRj
+bGFzc25hbWVYJGNsYXNzZXNXTlNBcnJheaIcHlhOU09iamVjdNIaGyAhXENBVHJhbnNpdGlvbqMiIx5c
+Q0FUcmFuc2l0aW9uW0NBQW5pbWF0aW9uXxAPTlNLZXllZEFyY2hpdmVy0SYnVHJvb3SAAQAIABEAGgAj
+AC0AMgA3AEEARwBQAFcAXABkAHkAewB9AH8AgQCMAJMAmACjAKYAqACqAKwAsQC8AMUAzQDQANkA3gDr
+AO8A/AEIARoBHQEiAAAAAAAAAgEAAAAAAAAAKAAAAAAAAAAAAAAAAAAAASQ
+</mutableData>
+                                                </caTransition>
+                                            </animations>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Welcome to Nubspace." id="0yb-BK-TMW">
+                                                <font key="font" size="24" name="Helvetica-Light"/>
+                                                <color key="textColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="0.78000000000000003" colorSpace="calibratedRGB"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField wantsLayer="YES" verticalHuggingPriority="750" id="440">
+                                            <rect key="frame" x="-2" y="77" width="963" height="49"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                            <shadow key="shadow" blurRadius="2">
+                                                <color key="color" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="0.56000000000000005" colorSpace="calibratedRGB"/>
+                                            </shadow>
+                                            <animations>
+                                                <caTransition key="subviews">
+                                                    <mutableData key="keyedArchiveRepresentation">
+YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKkHCBES
+EwsKGR9VJG51bGzUCQoLDA0ODxBWJGNsYXNzVHR5cGVXc3VidHlwZV8QEl9fQ0FDb2RpbmdDb250ZW50
+c4AIgAOAAoAEWmZyb21Cb3R0b21WbW92ZUlu0hQJFRhaTlMub2JqZWN0c6IWF4AFgAaAB9IaGxwdWiRj
+bGFzc25hbWVYJGNsYXNzZXNXTlNBcnJheaIcHlhOU09iamVjdNIaGyAhXENBVHJhbnNpdGlvbqMiIx5c
+Q0FUcmFuc2l0aW9uW0NBQW5pbWF0aW9uXxAPTlNLZXllZEFyY2hpdmVy0SYnVHJvb3SAAQAIABEAGgAj
+AC0AMgA3AEEARwBQAFcAXABkAHkAewB9AH8AgQCMAJMAmACjAKYAqACqAKwAsQC8AMUAzQDQANkA3gDr
+AO8A/AEIARoBHQEiAAAAAAAAAgEAAAAAAAAAKAAAAAAAAAAAAAAAAAAAASQ
+</mutableData>
+                                                </caTransition>
+                                            </animations>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Hints are helpful." id="441">
+                                                <font key="font" size="24" name="Helvetica-Light"/>
+                                                <color key="textColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="backgroundColor" red="0.60000002384185791" green="0.60000002384185791" blue="0.60000002384185791" alpha="0.78000000000000003" colorSpace="calibratedRGB"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <customView id="Ncd-0M-8Fk">
+                                            <rect key="frame" x="268" y="20" width="420" height="69"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                            <subviews>
+                                                <secureTextField verticalHuggingPriority="750" id="411" userLabel="welcomePassword">
+                                                    <rect key="frame" x="20" y="20" width="380" height="29"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                                    <animations/>
+                                                    <secureTextFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" alignment="center" drawsBackground="YES" usesSingleLineMode="YES" id="412">
+                                                        <font key="font" metaFont="system" size="18"/>
+                                                        <color key="textColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <allowedInputSourceLocales>
+                                                            <string>NSAllRomanInputSourcesLocaleIdentifier</string>
+                                                        </allowedInputSourceLocales>
+                                                    </secureTextFieldCell>
+                                                </secureTextField>
+                                                <button verticalHuggingPriority="750" id="407">
+                                                    <rect key="frame" x="310" y="17" width="90" height="32"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                                    <animations/>
+                                                    <buttonCell key="cell" type="push" title="Warp" bezelStyle="rounded" image="NSLockLockedTemplate" imagePosition="left" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="416">
+                                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                        <font key="font" metaFont="system"/>
+                                                        <string key="keyEquivalent" base64-UTF8="YES">
+DQ
+</string>
+                                                    </buttonCell>
+                                                    <connections>
+                                                        <action selector="decryptBucket:" target="-2" id="420"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <animations/>
+                                        </customView>
+                                    </subviews>
+                                    <animations/>
+                                </customView>
+                                <textField wantsLayer="YES" verticalHuggingPriority="750" id="RCp-Wi-NFZ">
+                                    <rect key="frame" x="38" y="541" width="883" height="45"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <shadow key="shadow" blurRadius="2">
+                                        <color key="color" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="0.56000000000000005" colorSpace="calibratedRGB"/>
+                                    </shadow>
+                                    <animations>
+                                        <caTransition key="subviews">
+                                            <mutableData key="keyedArchiveRepresentation">
+YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKkHCBES
+EwsKGR9VJG51bGzUCQoLDA0ODxBWJGNsYXNzVHR5cGVXc3VidHlwZV8QEl9fQ0FDb2RpbmdDb250ZW50
+c4AIgAOAAoAEWmZyb21Cb3R0b21WbW92ZUlu0hQJFRhaTlMub2JqZWN0c6IWF4AFgAaAB9IaGxwdWiRj
+bGFzc25hbWVYJGNsYXNzZXNXTlNBcnJheaIcHlhOU09iamVjdNIaGyAhXENBVHJhbnNpdGlvbqMiIx5c
+Q0FUcmFuc2l0aW9uW0NBQW5pbWF0aW9uXxAPTlNLZXllZEFyY2hpdmVy0SYnVHJvb3SAAQAIABEAGgAj
+AC0AMgA3AEEARwBQAFcAXABkAHkAewB9AH8AgQCMAJMAmACjAKYAqACqAKwAsQC8AMUAzQDQANkA3gDr
+AO8A/AEIARoBHQEiAAAAAAAAAgEAAAAAAAAAKAAAAAAAAAAAAAAAAAAAASQ
+</mutableData>
+                                        </caTransition>
+                                    </animations>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Welcome to #nubspace." id="l6W-5u-bYl">
+                                        <font key="font" size="28" name="Helvetica-Light"/>
+                                        <color key="textColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="0.78000000000000003" colorSpace="calibratedRGB"/>
+                                    </textFieldCell>
+                                </textField>
+                            </subviews>
+                            <animations/>
+                        </customView>
+                    </subviews>
+                    <animations/>
+                </customView>
+            </subviews>
+            <animations/>
+            <point key="canvasLocation" x="975" y="567"/>
+        </customView>
+    </objects>
+    <resources>
+        <image name="NSLockLockedTemplate" width="10" height="14"/>
+    </resources>
+</document>
